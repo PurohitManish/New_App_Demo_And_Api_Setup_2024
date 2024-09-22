@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "456723010616",
+    "project_id": "easylocker-b2a5f",
+    "storage_bucket": "easylocker-b2a5f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456723010616:android:eef0eb4e1cce2f596602cd",
+        "android_client_info": {
+          "package_name": "com.example.taskbuddy_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeAZt26QmGQdpdqkiz876m9hC679laBDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

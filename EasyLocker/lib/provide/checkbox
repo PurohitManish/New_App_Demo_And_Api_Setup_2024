@@ -1,0 +1,39 @@
+import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter/material.dart';
+
+class CheckboxProvider with ChangeNotifier {
+  static const String _checkStateKey = 'CheckState';
+  bool _isCheck = false;
+
+  bool get isCheck => _isCheck;
+
+  CheckboxProvider() {
+    loadCheckState();
+  }
+
+  void toggleCheck() {
+    _isCheck = !_isCheck;
+    saveCheckState();
+    notifyListeners();
+  }
+
+  Future<void> loadCheckState() async {
+    try {
+      SharedPreferences prefs = await SharedPreferences.getInstance();
+      _isCheck = prefs.getBool(_checkStateKey) ?? false;
+      notifyListeners();
+    } catch (e) {
+      print('Error loading check state: $e');
+    }
+  }
+
+  Future<void> saveCheckState() async {
+    try {
+      SharedPreferences prefs = await SharedPreferences.getInstance();
+      prefs.setBool(_checkStateKey, _isCheck);
+      notifyListeners();
+    } catch (e) {
+      print('Error saving check state: $e');
+    }
+  }
+}

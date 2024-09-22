@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <g id="Group_21409" data-name="Group 21409" transform="translate(-293 -184)">
+    <rect id="Rectangle_18062" data-name="Rectangle 18062" width="11" height="10" transform="translate(298 189)" fill="#fff"/>
+    <path id="close-circle-svgrepo-com" d="M22,12A10,10,0,1,1,12,2,10,10,0,0,1,22,12ZM8.97,8.97a.75.75,0,0,1,1.061,0L12,10.939l1.97-1.97A.75.75,0,0,1,15.03,10.03L13.061,12l1.97,1.97A.75.75,0,0,1,13.97,15.03L12,13.061l-1.97,1.97A.75.75,0,1,1,8.97,13.97L10.939,12,8.97,10.03A.75.75,0,0,1,8.97,8.97Z" transform="translate(291 182)" fill="#e74c3c" fill-rule="evenodd"/>
+  </g>
+</svg>
