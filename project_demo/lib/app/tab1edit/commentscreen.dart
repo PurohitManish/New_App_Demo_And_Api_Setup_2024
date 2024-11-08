@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:EasyLocker/Testpdfopen.dart';
+
 import 'package:EasyLocker/app/tab1/imagefull.dart';
 import 'package:EasyLocker/app/tab1/pdf.dart';
 import 'package:EasyLocker/app/tab1/videoplay.dart';
